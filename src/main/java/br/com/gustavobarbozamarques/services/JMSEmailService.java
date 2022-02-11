@@ -22,8 +22,8 @@ public class JMSEmailService {
         jmsTemplate.convertAndSend(queue, emailRequestDTO);
     }
 
-    @JmsListener(destination = "${queue}", containerFactory = "defaultFactory")
+    @JmsListener(destination = "${queue}")
     public void receiveMessage(EmailRequestDTO emailRequestDTO){
-        log.info("Sending email: {}", emailRequestDTO);
+        log.info("Received: {}", emailRequestDTO);
     }
 }

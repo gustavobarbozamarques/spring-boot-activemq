@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
-@Api(tags = "Email JMS")
+@Api(tags = "ActiveMQ")
 @RestController
 @RequestMapping(path = "/email")
 public class EmailController {

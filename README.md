@@ -14,12 +14,12 @@ And access: ``` http://localhost:8080/ ```
 
 Access Swagger and make a request: ``` http://localhost:8080/swagger-ui.html ```
 
-![Alt text](docs/swagger_request.png?raw=true "Swagger Request")
+![Alt text](docs/swagger.png?raw=true "Swagger Request")
 
 Access ActiveMQ console and see message on 'email_queue' queue:
 
-![Alt text](docs/activemq_console.png?raw=true "ActiveMQ Console")
+![Alt text](docs/activemq.png?raw=true "ActiveMQ Console")
 
 Check message received on java output console:
 
-![Alt text](docs/message_received.png?raw=true "List")
+![Alt text](docs/listener.png?raw=true "List")
