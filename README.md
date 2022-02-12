@@ -16,10 +16,10 @@ Access Swagger and make a request: ``` http://localhost:8080/swagger-ui.html ```
 
 ![Alt text](docs/swagger.png?raw=true "Swagger Request")
 
-Access ActiveMQ console and see message on 'email_queue' queue:
+Access ActiveMQ console (http://localhost:61616) and see 'email_queue' queue:
 
 ![Alt text](docs/activemq.png?raw=true "ActiveMQ Console")
 
 Check message received on java output console:
 
-![Alt text](docs/listener.png?raw=true "List")
+![Alt text](docs/listener.png?raw=true "Listener")
